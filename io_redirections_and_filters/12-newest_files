@@ -1,2 +1,2 @@
 #!/bin/bash
-head . -n 10 type f ls -l -t | ls -l -r  
+head . -n 10 ls -lt   
