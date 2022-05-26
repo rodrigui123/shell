@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -n | cut f | sort | uniq -c
+tail -n | cut f | uniq -c
