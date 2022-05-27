@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $PATH | tr '/' '\n' | sort -u | uniq | wc -l 
