@@ -9,7 +9,6 @@ do
 	printf "%s\n" "Best School"
 	((n++))
 	elif [ $n = 8 ] 
-	then
 	echo "good luck"
 	printf "%s\n" "Best School"
         ((n++))
