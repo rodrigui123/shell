@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#The second line of my Bash scripts is a comment explaining what it is doing
+n=1
+while [ $n -le 10 ]
+do   	
+	if [ $n = 9 ] 
+	then 
+	echo "Best School"
+	printf "%s\n" "Hi"
+else
+	echo "Best School"
+	((n++))
+fi
+done
+
