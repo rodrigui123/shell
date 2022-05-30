@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#The second line of my Bash scripts is a comment explaining what it is doing
+hr=1
+while [ $hr -le 12 ]
+do
+	printf "%s\n" "Hour: $hr" 
+	((hr++))
+min=1	
+while [ $min -le 59 ]
+	printf "%s\n" "$min"
+	((min++))
+	if [ $min = 60 ]
+	then
+	min=1 	
+fi 
+done
+done
+       	   
