@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#The second line of my Bash scripts is a comment explaining what it is doing
 while [ $x -le 10]
 do
 	echo "Best School $x times"
