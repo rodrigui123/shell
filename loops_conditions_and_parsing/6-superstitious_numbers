@@ -5,7 +5,7 @@ while [ $n -le 20 ]
 do
 case $n in	
 	4)  
-	echo "bad luck from China"
+	echo "\n" "bad luck from China"
 	((n++))
 	;;
         9)
