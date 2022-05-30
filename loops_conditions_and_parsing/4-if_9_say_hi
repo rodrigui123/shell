@@ -6,7 +6,7 @@ do
 	if [ $n = 9 ] 
 	then 
 	echo "Best School"
-	printf "%s\n" "Hi"
+	printf "Hi \n"
 else
 	echo "Best School"
 	((n++))
