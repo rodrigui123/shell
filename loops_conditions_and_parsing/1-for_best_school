@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#The second line of my Bash scripts is a comment explaining what it is doing
+for ((i=0; i<=10; i++))
+do
+	echo 'Best School'
+done
