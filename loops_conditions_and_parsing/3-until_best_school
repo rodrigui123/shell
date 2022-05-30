@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#The second line of my Bash scripts is a comment explaining what it is doing
+n=1
+until [ $n = 10 ]
+do
+	printf "%s\n"  "Best School" 
+    	
+	((n++))
+done
