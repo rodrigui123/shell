@@ -7,7 +7,7 @@ do
 	then 
 	echo "bad luck"
 	((n++))
-	elif [ $n = 7 ]
+	elif [ $n = 8 ]
 	then	
 	echo "good luck"
         ((n++))
