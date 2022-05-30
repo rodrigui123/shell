@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+#The second line of my Bash scripts is a comment explaining what it is doing
+n=1
+while [ $n -le 20 ]
+do
+case $n in	
+	[ $n = 4 ]  
+	echo "bad luck from China"
+	((n++))
+	;;
+	[ $n = 9 ]
+	echo "bad luck from Japan"	
+        ((n++))
+	;;
+	[ $n = 17 ]
+	echo "bad luck from Italy"
+esac
