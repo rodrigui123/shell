@@ -8,6 +8,14 @@ do
 	echo "bad luck"
 	printf "%s\n" "Best School"
 	((n++))
-else
-	
-	
+	elif [ $n = 8 ] 
+	then
+	echo "good luck"
+	printf "%s\n" "Best School"
+        ((n++))
+	else
+	printf "%s\n" "Best School"
+        ((n++))
+	fi
+done
+
