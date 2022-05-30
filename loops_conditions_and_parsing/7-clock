@@ -10,10 +10,10 @@ while [ $min -le 59 ]
 do
 	printf "%s\n" "$min"
 	((min++))
+done
 	if [ $min = 60 ] 
 	then
 	min=1 	
-fi 
-done
+fi
 done
        	   
