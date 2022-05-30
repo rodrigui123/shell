@@ -3,7 +3,7 @@
 n=1
 while [ $n -le 10]
 do
-	echo "Best School" printf "%s\n"
-
+	printf "%s\n"  "Best School" 
+    	
 	((n++))
 done
