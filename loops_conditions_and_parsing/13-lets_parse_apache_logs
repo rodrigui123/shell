@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#The second line of my Bash scripts is a comment explaining what it is doing
+
+awk '{ print $1, $9 }' apache-access.log
