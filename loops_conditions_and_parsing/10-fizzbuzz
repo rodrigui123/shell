@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 #The second line of my Bash scripts is a comment explaining what it is doing
-
 n=1
 
 while [ $n -le 100 ]
