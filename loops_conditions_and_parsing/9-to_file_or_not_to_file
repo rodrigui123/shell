@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#The second line of my Bash scripts is a comment explaining what it is doing
+
+file="./school"
+
+if [[ -e $file ]]
+then
+         printf "%s\n" "school file is not empty"
+else
+         printf "%s\n" "school file empty"
+fi
+
+if [[ -f $file ]]
+then
+         printf "%s\n" "school is a regular file"
+fi
+else
+         printf "$s\n" "school file does not exist"
+fi
