@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#The second line of my Bash scripts is a comment explaining what it is doing
+LIST=$(find . -type f -printf "%s\n" | cut -d "-" -f 2)
+for FILE in $LIST
+do
+printf "%s\n" "$FILE"
+done
