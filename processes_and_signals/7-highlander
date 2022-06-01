@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#shell processes project
+while : 
+do
+	trap [echo] [ "I am invincible!!!" ] [ SIGTERM ]
+	sleep 2
+
