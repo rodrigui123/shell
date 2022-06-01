@@ -4,7 +4,6 @@ echo '/var/run/myscript.pid' ps -aux
 while :
 do
 	echo  "To infinity and beyond"
-	trap -arg SIGTERM
-	echo "I hate the kill command"
+	trap -arg SIGTERM echo "I hate the kill command"
 	trap "echo Y U no love me?!; exit" SIGINT
 	trap "del /var/run/myscript.pid; exit" SIGINT
