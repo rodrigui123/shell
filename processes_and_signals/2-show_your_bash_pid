@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#learning the ps command
+# shellcheck disable=SC2009
+ps fux | grep bash
