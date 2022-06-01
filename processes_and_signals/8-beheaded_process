@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#learning shell processes
+pkill -f 7-highlander
