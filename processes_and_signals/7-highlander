@@ -2,6 +2,11 @@
 #shell processes project
 while : 
 do
-	trap [echo] [ "I am invincible!!!" ] [ SIGTERM ]
+	echo  "To infinity and beyond"
 	sleep 2
+done
+while : 
+do
+	trap [echo] [ "I am invincible!!!" ] [ SIGTERM ]
+done	
 
