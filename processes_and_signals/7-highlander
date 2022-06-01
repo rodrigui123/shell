@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #shell processes project
-trap "I am invincible!!!" SIGTERM
-while true 
+trap "echo I am invincible!!!; exit" SIGTERM
+while : 
 do
 	echo  "To infinity and beyond"
 	sleep 2
